@@ -53,7 +53,7 @@ else:
 UUID = os.environ.get('UUID', 'dcf9020f-e3ac-4354-9634-aa9b8c0d51a3')   # 节点UUID
 NEZHA_SERVER = os.environ.get('NEZHA_SERVER', 'nezha.tebus.art:443')    # 哪吒v0填写格式: nezha.xxx.com  哪吒v1填写格式: nezha.xxx.com:8008
 NEZHA_PORT = os.environ.get('NEZHA_PORT', '')        # 哪吒v1请留空，哪吒v0 agent端口
-NEZHA_KEY = os.environ.get('NEZHA_KEY', L781K2QaLyzSHeDMS6P7ia6A9WZ9OXQE'')          # 哪吒v0或v1密钥，哪吒面板后台命令里获取
+NEZHA_KEY = os.environ.get('NEZHA_KEY', 'L781K2QaLyzSHeDMS6P7ia6A9WZ9OXQE')          # 哪吒v0或v1密钥，哪吒面板后台命令里获取
 NEZHA_DOH = os.environ.get('NEZHA_DOH', '')          # 哪吒域名DoH解析地址,多个用逗号分隔,为空使用系统DNS
 DOMAIN = os.environ.get('DOMAIN', 'dihao.apps.apply.build')                # 项目分配的域名或反代后的域名,不包含https://前缀,例如: domain.xxx.com
 SUB_PATH = os.environ.get('SUB_PATH', 'sub')         # 节点订阅token
